@@ -1,5 +1,5 @@
 # Projeto Multithreading API
-## Dollar exchange rate
 
-Este projeto consiste em construir duas aplicações Go.
-O servidor (server) que fornece a cotação do dólar e salva no banco de dados SQLite. E o cliente (client) que solicita a cotação do server e realiza a criação de um arquivo com a cotação do dólar.
+Este projeto consiste em construir uma aplicação em Go que captura informações de duas APIs distintas sobre determinado CEP. 
+A API de CEP que retornar primeiro é a resposta que será acatada. 
+Caso nenhuma das duas retornarem dentro de 1 segundo, a API deve retornar mensagem de timeout.
